@@ -1,1 +1,0 @@
-(cd packages/buy-tools && rm -fr node_modules) && (cd packages/home && rm -fr node_modules) && (cd packages/nav && rm -fr node_modules) && (cd packages/product-image && rm -fr node_modules) && (cd packages/store && rm -fr node_modules) && rm -fr node_modules
