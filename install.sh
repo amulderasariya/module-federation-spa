@@ -1,1 +1,1 @@
-(cd packages/buy-tools && npm install) && (cd packages/home && npm install) && (cd packages/nav && npm install) && (cd packages/product-image && npm install) && (cd packages/store && npm install) && npm install
+./clean.sh && (cd packages/buy-tools && npm install) && (cd packages/home && npm install) && (cd packages/nav && npm install) && (cd packages/product-image && npm install) && (cd packages/store && npm install) && npm install

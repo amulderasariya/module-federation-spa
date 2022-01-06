@@ -41,6 +41,9 @@ module.exports = {
     new CopyPlugin([
       { from: 'fruit', to: 'fruit' },
     ]),
+    new CopyPlugin([
+      { from: 'node_modules/buyTools', to: 'buyTools' },
+    ]),
     new ModuleFederationPlugin({
       name: 'home',
       library: { type: 'var', name: 'home' },
